@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Dataflow Aggregate Data",
+				"name": "Dataflow Aggregate Data Summary",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
