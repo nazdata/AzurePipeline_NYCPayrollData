@@ -470,7 +470,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Dataflow Aggregate Data",
+						"name": "Dataflow Aggregate Data Summary",
 						"type": "ExecuteDataFlow",
 						"dependsOn": [],
 						"policy": {
@@ -485,7 +485,9 @@
 							"dataflow": {
 								"referenceName": "Dataflow Aggregate Data",
 								"type": "DataFlowReference",
-								"parameters": {},
+								"parameters": {
+									"dataflow_param_fiscalyear": "2020"
+								},
 								"datasetParameters": {
 									"source1": {},
 									"source2": {},
