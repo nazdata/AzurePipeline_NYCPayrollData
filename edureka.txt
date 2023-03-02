@@ -1,2 +1,0 @@
-Learning Git by Edureka!
-Let's add some new rows!
